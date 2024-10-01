@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evento</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            scroll-behavior: smooth;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .menu {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+
+        .menu li {
+            margin: 0 20px;
+        }
+
+        .menu a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+
+        .menu a:hover {
+            background-color: #555;
+        }
+
+        section {
+            padding: 100px 20px;
+            min-height: 100vh;
+            background-color: #f4f4f4;
+            border-bottom: 1px solid #ccc;
+        }
+
+        h1, h2 {
+            text-align: center;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="menu">
+                <li><a href="#inicio">Inicial</a></li>
+                <li><a href="#palestra">Palestras</a></li>
+                <li><a href="#patrocinio">Patrocínio</a></li>
+                <li><a href="#patrocinio">Contato</a></li>
+                <li><a href="#comprar-ingresso">Comprar Ingresso</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio">
+        <h1>Bem-vindo ao Evento</h1>
+    </section>
+    
+    <section id="palestra">
+        <h2>Palestra</h2>
+        <p>Informações sobre as palestras...</p>
+    </section>
+
+    <section id="patrocinio">
+        <h2>Patrocínio</h2>
+        <p>Informações sobre patrocínio...</p>
+    </section>
+
+    <section id="comprar-ingresso">
+        <h2>Comprar Ingresso</h2>
+        <p>Informações sobre compra de ingressos...</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Evento. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
